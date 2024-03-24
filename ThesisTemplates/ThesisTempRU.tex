@@ -23,11 +23,22 @@
 \footnotetext[1]{Mail : \href{mailto:sirenexcelsior@gmail.com}{sirenexcelsior@gmail.com}}
 
 \newpage
+\thispagestyle{empty}
 \tableofcontents
 
 \newpage
+\setcounter{page}{1}		% Нумерация страниц начинается с этой страницы.
 \include{Section.tex}
 
+\newpage
+\include{TabAndPic.tex}
+
+\newpage
+\include{Code.tex}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\addcontentsline{toc}{section}{Список литературы}
 
 \end{document}
 

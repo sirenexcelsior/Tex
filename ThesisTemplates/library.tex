@@ -3,12 +3,22 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 
+\hypersetup{
+    colorlinks=true, 
+    linkcolor=black, 
+    citecolor=black, 
+    filecolor=black,
+    urlcolor=black 
+}
+
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \usepackage{xeCJK}
 \usepackage{polyglossia}
 \setmainlanguage{russian} 
+\setmonofont{DejaVu Sans Mono}
 \setotherlanguage{chinese} 
+
 
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -22,3 +32,32 @@
 \usepackage[breakable]{tcolorbox}
 \usepackage{longtable}
 \usepackage[export]{adjustbox}
+
+\usepackage{ulem}
+
+\usepackage{parallel}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color[RGB]{129,184,223},
+    commentstyle=\color{gray},
+    stringstyle=\color[RGB]{254,129,125},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{white},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    tabsize=2,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    escapeinside={\%*}{*)}
+}

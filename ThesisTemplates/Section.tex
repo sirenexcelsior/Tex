@@ -1,7 +1,63 @@
 \section{Section}
 
-This is an example of text for a heading that cannot be graded.
+Это пример текста для заголовка, который не может быть оценен.
 
 \subsection{Subsection}
 
+\textbf{Это пример абзаца, выделенного жирным шрифтом.}
+
+\textit{Это пример текста, выделенного курсивом.}
+
+\uline{Это пример абзаца, в котором подчеркивания соединяются между строками. Если используется метод underline, текст в поперечном начертании не поддерживается.}
+
 \subsubsection{Subsubsection}
+
+Это пример колоночного текста.
+
+\begin{Parallel}{0.55\textwidth}{0.4\textwidth}
+
+\ParallelLText{
+
+Это пример текста слева. Это образец текста слева. Это образец текста слева. Это образец текста слева. Это образец текста слева. Это образец текста слева. Это образец текста слева. Это образец текста слева.
+
+}
+
+\ParallelRText{
+
+Это пример текста справа. Это образец текста справа. Это образец текста справа. Это образец текста справа. Это образец текста справа. Это образец текста справа.
+
+}
+
+\ParallelPar
+
+\end{Parallel}
+
+Это пример цитирования литературы\cite{knuth1984texbook}.
+
+\subsubsection{Math}
+
+Это пример математической формулы.
+
+Это внутристрочная формула $E=mc^2$, а не межстрочная формула:
+
+$$a^2 + b^2 = c^2$$
+
+Вот математическая формула для автоматической нумерации, Формула \ref{eq:ft}, Формула \ref{eq:lt}, Формула \ref{eq:zt}:
+
+\begin{equation}
+F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} \, dt
+\label{eq:ft}
+\end{equation}
+
+\begin{equation}
+F(s) = \int_{0}^{\infty} f(t) e^{-st} \, dt
+\label{eq:lt}
+\end{equation}
+
+\begin{equation}
+F(z) = \sum_{n=-\infty}^{\infty} f[n] z^{-n}
+\label{eq:zt}
+\end{equation}
+
+
+

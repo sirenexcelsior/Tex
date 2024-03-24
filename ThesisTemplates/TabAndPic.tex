@@ -1,0 +1,48 @@
+\section{Таблицы и рисунки}
+
+\subsection{Таблицы}
+
+\begin{table}[htbp]
+\centering
+\caption{Таблица примера}
+\label{tab:t1}
+\begin{tabular}{ccccc}
+\toprule
+Пункт & Данные 1 & Данные 2 & Данные 3 & Данные 4 \\
+\midrule
+	Элемент 1 & 1 & 2 \\
+	Элемент 2 & 3 & 4 \\
+	Элемент 3 & 5 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Вот пример вставки и ссылки на трехстрочную таблицу \ref{tab:t1}.
+
+\subsection{Рисунки}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{pic/pic} 
+        \caption{Рис 1-1}
+        \label{fig:sub1}
+    \end{subfigure}
+    \hfill 
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{pic/pic} 
+        \caption{Рис 1-2}
+        \label{fig:sub2}
+    \end{subfigure}
+    \hfill 
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{pic/pic} 
+        \caption{Рис 1-3}
+        \label{fig:sub3}
+    \end{subfigure}
+    \caption{Примеры картинок}
+    \label{fig:total}
+\end{figure}
+
+Вот пример вставки и ссылки на изображение \ref{fig:total} и \ref{fig:sub1}, \ref{fig:sub2}, \ref{fig:sub3}.
+
