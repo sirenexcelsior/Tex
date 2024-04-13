@@ -1,33 +1,49 @@
 \documentclass[a4paper,12pt]{article}
 
 \include{library.tex}
-
-
-\title{\vspace{-1cm} Московский Государственный Университет \\ имени М. В. Ломоносова \\ Механико-математический факультет \\ Кафедра МаТИС \\[2cm] \textbf{主要标题 - Main title - Основное название}}
-
-\author{\begin{tabularx}{\textwidth}{rX}
-\textbf{Студент} : & 王 | Ван | Wang \footnotemark[1] \\ 
-\textbf{Научный консультант} : & Час.
-\end{tabularx}}
-
-\date{\today} 
-
+  
 \hypersetup{
     linkbordercolor=black
 }
 
 \begin{document}
 
-\maketitle
+\begin{titlepage}
 \thispagestyle{empty}
-\footnotetext[1]{Mail : \href{mailto:sirenexcelsior@gmail.com}{sirenexcelsior@gmail.com}}
+\centering
+\vspace*{1cm}
+{\LARGE Московский Государственный Университет \\ имени М. В. Ломоносова \\ Механико-математический факультет \\ Кафедра МаТИС \\[2cm]}
+\textbf{\huge Название статьи на русском языке}\\[0.5cm]
+{\large Title of this article in English}\\[1.5cm]
+
+{\large
+\begin{tabular}{cc}
+  \textit{\textbf{Author 1}} & \textit{\textbf{Author 2}}\\
+  Студент 1 & Профессор 1\\
+  \href{mailto:sirenexcelsior@gmail.com}{sirenexcelsior@gmail.com} & \href{mailto:exp@math.msu.ru}{exp@math.msu.ru}\\
+\end{tabular}}
+
+\vfill
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=0.6\textwidth]{pic/pic}
+\end{figure}
+
+\vfill
+
+\large Апрель 2024 г.
+
+\end{titlepage}
+
+\large
 
 \newpage
 \thispagestyle{empty}
 \tableofcontents
 
 \newpage
-\setcounter{page}{1}		% Нумерация страниц начинается с этой страницы.
+\setcounter{page}{1}
 \include{Section.tex}
 
 \newpage

@@ -7,4 +7,4 @@
 \contentsline {subsection}{\numberline {2.1}Таблицы}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Рисунки}{2}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Код}{3}{section.3}%
-\contentsline {section}{Список литературы}{4}{section*.4}%
+\contentsline {section}{Список литературы}{4}{section*.5}%
